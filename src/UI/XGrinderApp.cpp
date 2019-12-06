@@ -28,6 +28,9 @@
 #if APL
 #include "ObjCUtils.h"
 #endif
+#if LIN
+#include <QtGui/QPainter>
+#endif
 
 class	XGrinderWin;
 

@@ -30,7 +30,7 @@
 	#include "GUI_Unicode.h"
 #endif
 #if LIN
-#include <QtGui/QApplication>
+#include <QtWidgets/QApplication>
 #include <QtGui/QClipboard>
 #include <QtCore/QString>
 #endif

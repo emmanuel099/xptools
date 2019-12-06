@@ -37,6 +37,12 @@
 #include <Carbon/Carbon.h>		// we use this for vkeys/low mem accessors to keyboard
 #endif
 
+#if LIN
+#include <QtCore/QMimeData>
+#include <QtGui/QDrag>
+#include <QtGui/QDragEnterEvent>
+#endif
+
 static set<GUI_Window *>	sWindows;
 
 #if APL

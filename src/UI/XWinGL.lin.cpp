@@ -1,5 +1,7 @@
 #include "XWinGL.h"
 
+#include <QtWidgets/QLayout>
+
 glWidget::glWidget(QWidget *parent, XWinGL* xwin, QGLWidget* share) : QGLWidget(parent, share)
 {
 	mXWinGL = xwin;

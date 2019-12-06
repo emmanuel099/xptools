@@ -1,5 +1,18 @@
 #include "XWin.h"
 
+#include <QtCore/QMimeData>
+#include <QtCore/QUrl>
+#include <QtGui/QCloseEvent>
+#include <QtGui/QResizeEvent>
+#include <QtGui/QMouseEvent>
+#include <QtGui/QWheelEvent>
+#include <QtGui/QKeyEvent>
+#include <QtGui/QDragEnterEvent>
+#include <QtGui/QDropEvent>
+#include <QtWidgets/QDesktopWidget>
+#include <QtWidgets/QLayout>
+#include <QtWidgets/QStyle>
+
 XWin::XWin(
 	int		default_dnd,
 	const char*	inTitle,

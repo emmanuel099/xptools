@@ -25,8 +25,9 @@
 #define GUI_APPLICATION_H
 
 #if LIN
-#include <QtCore/QtCore>
-#include <QtGui/QtGui>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
 #endif
 
 #include "GUI_Commander.h"

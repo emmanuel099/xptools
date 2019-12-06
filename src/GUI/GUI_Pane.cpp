@@ -41,7 +41,7 @@
 using std::find;
 
 #if LIN
-#include <QtGui/QApplication>
+#include <QtWidgets/QApplication>
 #endif
 
 

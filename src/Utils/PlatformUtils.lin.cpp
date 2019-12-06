@@ -20,8 +20,8 @@
  * THE SOFTWARE.
  *
  */
-#include <QtCore/QtCore>
-#include <QtGui/QtGui>
+#include <QtWidgets/QFileDialog>
+#include <QtWidgets/QMessageBox>
 #include "PlatformUtils.h"
 #include <stdio.h>
 #include <sys/stat.h>
